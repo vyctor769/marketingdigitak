@@ -18,13 +18,10 @@ export default function ProductImage() {
             </div>
             
             <img 
-              src="https://drive.google.com/uc?export=view&id=1sMtPmEhVBjAIFVKoYcA8Rhdnc7tVDHrM" 
+              src="https://i.ibb.co/fbhG3WF/capa.jpg" 
               alt="Capa do Ebook Marketing Proibido" 
-              className="w-full rounded-xl shadow-2xl mb-6"
-              onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                target.style.display = 'none';
-              }}
+              className="w-full rounded-xl shadow-2xl mb-6 border-2 border-amber-500/50"
+              style={{ maxWidth: '100%', height: 'auto' }}
             />
             
             <div className="flex items-center justify-center gap-2 text-yellow-400">
